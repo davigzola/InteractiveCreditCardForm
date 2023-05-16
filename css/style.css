@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(/img/bg-main-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 100vh;
+}
+
+.front-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: url(/img/bg-card-front.png);
+    background-repeat: no-repeat;
+    height: 15.6rem;
+    margin-bottom: 1.5rem;
+    left: 56%;
+    color: white;
+    padding: 1rem;
+}
+
+.back-card {
+    position: relative;
+    background-image: url(/img/bg-card-back.png);
+    background-repeat: no-repeat;
+    height: 15.6rem;
+    left: 70%;
+    color: white;
+}
+
+.front-card-logo {
+    width: 10%;
+}
+
+.front-card-number {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.front-card-name {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.front-card-expdate {
+    letter-spacing: 3px;
+}
+
+.back-card-cvc {
+    position: relative;
+    top: 110px;
+    left: 365px;
+}
+
+fieldset {
+    padding: 5px;
+    border: none;
+}
+
+form {
+    margin-top: 20rem;
+    margin-left: 20rem;
+}
