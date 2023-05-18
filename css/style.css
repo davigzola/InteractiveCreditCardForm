@@ -132,4 +132,21 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 1000px) {
+    .main {
+        flex-direction: column;
+    }
 
+
+    .credit-card-info {
+        display: flex;
+        background-image: url(/img/bg-main-mobile.png);
+        width: 100vw;
+        height: 35rem;
+    }
+
+    .credit-card-form {
+        padding: 0;
+        margin: 50px 0 50px 0;
+    }
+}
