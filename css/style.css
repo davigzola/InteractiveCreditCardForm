@@ -23,6 +23,7 @@
     color: hsl(0, 0%, 100%);
     width: 50%;
     height: 100vh;
+    margin-right: 17%;
 }
 
 .front-card {
@@ -137,16 +138,32 @@
         flex-direction: column;
     }
 
-
     .credit-card-info {
-        display: flex;
         background-image: url(/img/bg-main-mobile.png);
         width: 100vw;
         height: 35rem;
+        margin-right: 0;
     }
 
     .credit-card-form {
         padding: 0;
-        margin: 50px 0 50px 0;
+        margin: 50px 0 50px 13% ;
+    }
+
+    .credit-card-form form p {
+        font-size: 1.3rem
+    }
+
+    .credit-card-form form input[type="text"], .credit-card-form form input[type="number"]  {
+        font-size: 1.3rem;
+    }
+
+    .credit-card-form-expdate input {
+        min-width: 5.1rem;
+        width: 35%;
+    }
+
+    .credit-card-form form input[type="submit"] {
+        height: 3rem;
     }
 }
