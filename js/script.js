@@ -19,7 +19,6 @@ creditCardNumber.addEventListener("input", changeNumber);
 creditCardExpDateMonth.addEventListener("input", changeMonth);
 creditCardExpDateYear.addEventListener("input", changeYear);
 creditCardCVC.addEventListener("input", changeCVC);
-
 submitButton.addEventListener("click", submitClick);
 
 function changeName() {
